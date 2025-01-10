@@ -1,5 +1,5 @@
 <?php
-$koneksi = mysqli_connect('localhost', 'root', '', 'Analisa_penyakitginjal');
+$koneksi = mysqli_connect('localhost', 'root', '', 'analisa_penyakit_ginjal');
 
 if (mysqli_connect_errno()) {
     echo "Koneksi Database Gagal : " . mysqli_connect_error();
